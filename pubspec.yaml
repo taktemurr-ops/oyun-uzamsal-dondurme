@@ -1,0 +1,24 @@
+name: oyun_uzamsal_dondurme
+description: "Uzamsal Döndürme – Zihin Antrenmanı merkez uygulamasının oyunu."
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  studio_core:
+    git:
+      url: https://github.com/taktemurr-ops/studio-core
+      ref: 71553283c36d7f672f375de54219020461cead06
+  zihin_motoru:
+    git:
+      url: https://github.com/taktemurr-ops/zihin-motoru
+      ref: 1f590118716c156f8ba02b3db968ab218240dd31
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
